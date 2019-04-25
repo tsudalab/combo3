@@ -1,5 +1,7 @@
 COMmon Bayesian Optimization Library ( COMBO )
 ========
+This version is still beta. There might be problems in installing with other packages such as anaconda.
+
 Bayesian optimization has been proven as an effective tool in accelerating scientific discovery.
 A standard implementation (e.g., scikit-learn), however,
 can accommodate only small training data.
