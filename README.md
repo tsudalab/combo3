@@ -20,7 +20,7 @@ automatic hyperparameter tuning. Technical features are described in [our docume
 
 # Install ######################################
 	1. Download or clone the github repository, e.g.
-		> git clone https://github.com/tsudalab/combo.git
+		> git clone https://github.com/tsudalab/combo3.git
 
 	2. Run setup.py install
 		> cd combo
