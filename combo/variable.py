@@ -64,7 +64,7 @@ class variable(object):
         np.savez_compressed(file_name, X=self.X, t=self.t, Z=self.Z)
 
     def load(self, file_name):
-        data = np.load(file_name)
+        data = np.load(file_name, allow_pickle=True)
         self.X = data['X']
         self.t = data['t']
         self.Z = data['Z']

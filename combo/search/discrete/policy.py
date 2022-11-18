@@ -208,6 +208,9 @@ class policy(object):
             with open(file_predictor, 'rb') as f:
                 self.predictor = pickle.load(f)
 
+        N = self.history.total_num_search
+        self.actions = self.delete_actions(self.history.chosed_actions[:N])
+
     def export_predictor(self):
         return self.predictor
 
